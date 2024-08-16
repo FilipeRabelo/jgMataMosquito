@@ -71,6 +71,11 @@ option {
 
 @media (max-width: 768px) {
   body{
-    height: 100vh;
+    /*height: 100vh;*/
+    /*background-color: black;*/
+
+    background-image: url("imagens/bg.jpg");
+    background-repeat: no-repeat;
+    background-size: 100vh;
   }
 }
