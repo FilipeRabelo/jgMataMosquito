@@ -1,0 +1,70 @@
+html{
+  cursor: url(imagens/mata_mosquito.png) 30 30, auto;
+}
+
+body {
+  background-image: url("imagens/bg.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+.mosquito1 {
+  height: 60px;
+  width: 60px;
+}
+
+.mosquito2 {
+  height: 90px;
+  width: 90px;
+}
+
+.mosquito3 {
+  height: 120px;
+  width: 120px;
+}
+
+.ladoA {
+  transform: scaleX(1);
+}
+
+.ladoB {
+  transform: scaleX(-1);
+}
+
+.painel {
+  position: absolute;
+  width: 190px;
+  padding: 10px;
+  left: 0px;
+  bottom: 0px;
+  border-top: 1px solid #FFF;
+  background-color: #FFF;
+  opacity: 0.7;
+}
+
+.vidas {
+  float: left;
+}
+
+.cronometro {
+  float: left;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+#btn {
+  font-weight: bold;
+}
+
+#nivel {
+  font-weight: bold;
+}
+
+#nivel:hover {
+  cursor: pointer;
+  background-color: aqua;
+}
+
+option {
+  font-weight: bold;
+}
