@@ -72,16 +72,13 @@ option {
   font-weight: bold;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 968px) {
 
   body {
     display: flex;
     background-image: url("/imagens/bg.jpg");
     background-repeat: no-repeat;
     background-size: auto;
-    height: 100vh;
-    margin: auto;
     overflow: hidden;
-    width: 100%;
   }
 }
