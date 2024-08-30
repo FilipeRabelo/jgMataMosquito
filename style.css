@@ -75,7 +75,7 @@ option {
 
   body {
     display: flex;
-    background-image: url("/imagens/bg.jpg");
+    background-image: url('imagens/bg.jpg');
     background-repeat: no-repeat;
     background-size: auto;
   }
