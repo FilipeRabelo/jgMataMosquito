@@ -75,7 +75,7 @@ option {
 @media only screen and (min-width: 300px) and (max-width: 1024px) {
 
   body {
-    display: flex;
+
     background-image: url('imagens/bg_mobile.jpg');
     background-repeat: no-repeat;
     background-size: cover;
@@ -97,4 +97,7 @@ option {
     width: 150px;
   }
 
+  #vitoriaImg{
+    height: 25rem;
+  }
 }
