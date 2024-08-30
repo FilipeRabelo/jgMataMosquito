@@ -8,7 +8,6 @@ body {
   background-image: url("imagens/bg.jpg");
   background-repeat: no-repeat;
   background-size: 100%;
-  overflow: hidden;
 }
 
 .mosquito1 {
@@ -79,6 +78,5 @@ option {
     background-image: url("/imagens/bg.jpg");
     background-repeat: no-repeat;
     background-size: auto;
-    overflow: hidden;
   }
 }
