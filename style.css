@@ -1,11 +1,14 @@
-html{
+html {
   cursor: url(imagens/mata_mosquito.png) 30 30, auto;
 }
 
 body {
+  display: flex;
+  height: 100vh;
   background-image: url("imagens/bg.jpg");
   background-repeat: no-repeat;
   background-size: 100%;
+  overflow: hidden;
 }
 
 .mosquito1 {
@@ -71,11 +74,14 @@ option {
 
 @media (max-width: 768px) {
 
-  body{
+  body {
     display: flex;
-    background-image: url("imagens/bg.jpg") ;
+    background-image: url("/imagens/bg.jpg");
     background-repeat: no-repeat;
-    background-size: 100vh;
-    height: 100%;
+    background-size: auto;
+    height: 100vh;
+    margin: auto;
+    overflow: hidden;
+    width: 100%;
   }
 }
