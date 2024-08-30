@@ -8,6 +8,7 @@ body {
   background-image: url("imagens/bg.jpg");
   background-repeat: no-repeat;
   background-size: 100%;
+  overflow: hidden;
 }
 
 .mosquito1 {
@@ -71,12 +72,14 @@ option {
   font-weight: bold;
 }
 
-@media (max-width: 968px) {
+@media (max-width: 768px) {
 
   body {
     display: flex;
-    background-image: url('imagens/bg.jpg');
+    background-image: url('imagens/bg_mobile.jpg');
     background-repeat: no-repeat;
-    background-size: auto;
+    background-size: 100%;
+    overflow: hidden;
   }
+
 }
