@@ -82,4 +82,19 @@ option {
     overflow: hidden;
   }
 
+  .mosquito1 {
+    height: 90px;
+    width: 90px;
+  }
+
+  .mosquito2 {
+    height: 120px;
+    width: 120px;
+  }
+
+  .mosquito3 {
+    height: 150px;
+    width: 150px;
+  }
+
 }
